@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ******************Nav. bar**************** */
+
+header{
+    /* position: sticky; */
+    top: 0px;
+    z-index: 1;
+    
+
+}
+
+.NavBar{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(26, 87, 134);
+    position: relative;
+   
+
+
+  
+}
+
+.NavBar img{
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+
+}
+.NavButtons{
+    list-style: none;
+    position:absolute;
+    left: 150px;
+    top: 40px;
+}
+
+.NavButtons a{
+    text-decoration: none;
+    color: rgb(238,204,131);
+}
+
+.NavButtons a:hover{
+    text-decoration: underline;
+}
+
+.NavButtons li{
+    display: inline-block;
+    margin-right: 60px;
+    color: rgb(238,204,131);
+}
+
+.Login{
+    position: absolute;
+    right: 75px;
+    top: 40px;
+}
+
+
+/* ***************Main body*************** */
+
+/* Main banner */
+main{
+
+    background-color: rgb(192, 227, 250);
+}
+
+.MainBanner img{
+     /* width:1536.2px; */
+    width: 100%;
+    height: 350px;
+    
+}
+.MainBanner{
+    position: relative;
+}
+
+.Title {
+   position: absolute;
+   top: 150px;
+   left: 150px;
+   color: rgb(255, 255, 255);
+}
+
+/* Section1 */
+.Section1{
+    text-align: center;
+}
+
+.Section1 .sample2{
+    display: inline-block;
+    text-align: left;
+    
+}
+.sample2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sample2 img {
+    height: 250px;
+    width: 300px;
+    
+}
+
+/* Second banner */
+
+.SecondBanner{
+    position: relative;
+    
+    
+}
+
+.SecondBanner img{
+width: 100%;
+height: 250px; 
+
+}
+
+
+.SecondBanner h2{
+    color: white;
+    position: absolute;
+    top:125px ;
+    right: 40%;
+    
+}
+
+/* Section 2 */
+
+
+ .Section2{
+    position: relative;
+    text-align: center;
+    padding-right: 35%;
+
+}
+
+.Section2 img{
+width: 300px;
+height: 300px;
+
+
+}
+
+.Section2 div{
+    display: inline-block;
+    
+   
+}
+
+.Section2 .Text{
+
+position: absolute;
+top: 50px;
+margin-left: 10%;
+text-align: left;
+}
+
+/* Section3 */
+ 
+.Section3{
+    position: relative;
+    text-align: center;
+    padding-left: 35%;
+    margin-top: 50px;
+
+}
+
+.Section3 img{
+width: 300px;
+height: 300px;
+
+
+}
+
+.Section3 div{
+    display: inline-block;
+    
+   
+}
+
+.Section3 .Text3{
+position: absolute;
+top: 50px;
+right: 54%;
+margin-left: 60px;
+text-align: left;
+} 
+
+
+/* Testimonials */
+
+.Testimonials{
+    text-align: center;
+}
+
+.Testimonials h1{
+    border: ridge 5px rgba(75, 65, 167, 0.5008);
+    padding: 20px;
+    background-color: rgba(112, 177, 227, 0.564);
+ 
+}
+
+.Reviews{
+    display: inline-block;
+    padding: 25px;
+}
+
+/* Section 2 */
+
+/* Blog */
+
+.Blog{
+    text-align: center;
+    background-color: rgba(205, 205, 205, 0.534);
+}
+
+.Blog .ArticlePic{
+    display: inline-block;
+    text-align: left;
+    
+}
+.ArticlePic {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.ArticlePic img {
+    height: 250px;
+    width: 400px;
+    
+}
+#Date{
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+    padding-right: 30px;
+}
+#News{
+    text-align: center;
+   
+}
+#News input{
+    height: 30px;
+    width: 380px;
+    border: 5px ridge rgb(112, 177, 227);
+    border-radius: 5px;
+    background-color: rgba(255, 243, 243, 0);
+}
+#News button{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(73, 149, 207);
+    border-radius: 5px;
+    color: white;
+    
+}
+/* *************************Form Page**************************** */
+fieldset{
+    margin: 10px;
+    position: relative;
+}
+
+.Form img{
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 3%;
+    
+
+}
+
+.Form{
+    display: inline-block;
+   padding-left: 20%;
+
+}
+
+.Form input{
+    height: 30px;
+    width: 380px;
+    border: 5px ridge rgb(112, 177, 227);
+    border-radius: 5px;
+    background-color: rgba(255, 243, 243, 0);
+
+}
+
+.Form button{
+    height: 40px;
+    width: 390px;
+    background-color: rgb(112, 177, 227);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+/* Table section */
+
+
+.InfoTable{
+    text-align: center;
+    margin: auto;
+}
+
+.InfoTable table{
+    text-align: center;
+    margin: auto;
+}
+
+.InfoTable table td{
+width: 250px;
+height: 50px;
+}
+
+.TableDes {
+    margin: 25px;
+    background-color: rgb(112, 177, 227);
+   text-align: center;
+   border-radius: 50px;
+}
+
+.info{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* Footer */
+
+.Footer{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(26, 87, 134);
+    position: relative;
+    
+}
+
+.Footer img{
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.FooterButtons{
+    list-style: none;
+    position:absolute;
+    left: 150px;
+    top: 40px;
+}
+ 
+.FooterButtons a{
+    text-decoration: none;
+    color: rgb(238,204,131);
+}
+
+.FooterButtons a:hover{
+    text-decoration: underline;
+}
+
+.FooterButtons li{
+    display: inline-block;
+    margin-right: 60px;
+    color: rgb(238,204,131);
+}
+
+.Select{
+    position: absolute;
+    right: 75px;
+    top: 40px;
+}
